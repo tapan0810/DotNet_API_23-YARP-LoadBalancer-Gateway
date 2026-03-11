@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet_API_23", "DotNet_API_23\DotNet_API_23.csproj", "{D242E582-A3D0-40E9-ABB8-C707FA5515D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet_API_23_2", "Dotnet_API_23_2\Dotnet_API_23_2.csproj", "{568AB947-9667-48AA-866B-10308CE157C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet_API_23_3", "DotNet_API_23_3\DotNet_API_23_3.csproj", "{84CA84DC-2E97-4C75-AEDB-DB0990032302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D242E582-A3D0-40E9-ABB8-C707FA5515D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D242E582-A3D0-40E9-ABB8-C707FA5515D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D242E582-A3D0-40E9-ABB8-C707FA5515D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568AB947-9667-48AA-866B-10308CE157C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568AB947-9667-48AA-866B-10308CE157C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568AB947-9667-48AA-866B-10308CE157C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568AB947-9667-48AA-866B-10308CE157C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CA84DC-2E97-4C75-AEDB-DB0990032302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CA84DC-2E97-4C75-AEDB-DB0990032302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CA84DC-2E97-4C75-AEDB-DB0990032302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CA84DC-2E97-4C75-AEDB-DB0990032302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

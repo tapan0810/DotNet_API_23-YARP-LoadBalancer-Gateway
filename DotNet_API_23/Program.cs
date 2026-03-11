@@ -19,6 +19,8 @@ builder.Services.AddDbContext<HotelDbContext>(options =>
 
 builder.Services.AddScoped<IHotelService,HotelService>();
 
+builder.Services.AddReverseProxy().LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +33,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.MapReverseProxy();
 
 app.MapControllers();
 
