@@ -4,7 +4,7 @@ namespace DotNet_API_23.Services
 {
     public interface IHotelService
     {
-        public Task<List<GetAllHotelsDto>> GetAllHotels();
+        public Task<List<GetAllHotelsDto>> GetAllHotels(int pageNumber, int pageSize);
         public Task<GetHotelyIdDto> GetHotelyId(int id);
         public Task<GetHotelyIdDto> CreateHotel(CreateHotelDto dto);
         public Task<bool> UpdateHotel(int id,UpdateHotelDto dto);
